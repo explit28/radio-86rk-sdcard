@@ -12,7 +12,9 @@
 
 ## Фото готового устройства
 
-![Фото](https://farm8.staticflickr.com/7503/15748066262_4a058c6886_c.jpg)
+<img width="456" height="585" alt="SD-Card_top" src="https://github.com/user-attachments/assets/35ecc62d-e6cc-46a9-ad95-043e64bb5ea0" />
+<img width="538" height="636" alt="SD-Card_bottom" src="https://github.com/user-attachments/assets/4da28afd-f0cf-40e7-8ca3-3863e367f4ac" />
+
 
 ## BOM-list
 
