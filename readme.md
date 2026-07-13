@@ -91,7 +91,8 @@ sudo avrdude -c usbasp -p m328p -B 100 -U flash:w:86rksd.hex:i
 # **shell.rk** 
 в комплекте прошивки есть 2 файла shell.rk
 
-shell.old - оригинальный shell.rk - управление буквами A, Q, P, O
+shell.old - оригинальный shell.rk - управление буквами A, Q, P, O  
+
 shell.rk - моя пропатченная версия - управление стрелками курсора + буквами A, Q, P, O
 
 Если вы хотите использовать оригинальную shell.rk - переменуйте shell.old в shell.rk
