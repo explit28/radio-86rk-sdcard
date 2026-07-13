@@ -63,21 +63,15 @@ https://www.sciencetronics.com/greenphotons/?p=938
 сначала мы смотрим какие Fuse bits уже прошиты в микросхеме:
 Правильные Fuse bits:
 
-lfuse = 0x62
-hfuse = 0xd9
-efuse = 0xff
-
+lfuse = 0xE2<br>
+hfuse = 0xD9<br>
+efuse = 0xFF<br> 
 
 # читаем Fuses
+```bash
 sudo avrdude -c usbasp -p m328p -B 100 \
   -U lfuse:r:-:h -U hfuse:r:-:h -U efuse:r:-:h
-
-Правильные Fuse bits:
-
-lfuse = 0xE2
-hfuse = 0xD9
-efuse = 0xFF 
-
+```
 
 # пишем Fuses (Internal 8 MHz RC, without bootloader reset)
 ```bash
@@ -95,11 +89,9 @@ sudo avrdude -c usbasp -p m328p -B 100 -U flash:w:86rksd.hex:i
 # **shell.rk** 
 в комплекте прошивки есть 2 файла shell.rk
 
-shell.old - оригинальный shell.rk - управление буквами A, Q, P, O  
-
-shell.rk - моя пропатченная версия - управление стрелками курсора + буквами A, Q, P, O
-
-Если вы хотите использовать оригинальную shell.rk - переменуйте shell.old в shell.rk
+shell.old - оригинальный shell.rk - управление буквами A, Q, P, O<br>
+shell.rk - моя пропатченная версия - управление стрелками курсора + буквами A, Q, P, O,br>
+Если вы хотите использовать оригинальную shell.rk - переменуйте shell.old в shell.rk<br>
 
 ## Полезные ссылки
 - Обсуждение проекта на zx-pk.ru: [http://zx-pk.ru/showthread.php?t=24092](http://zx-pk.ru/showthread.php?t=24092)
