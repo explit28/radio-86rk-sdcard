@@ -33,7 +33,7 @@
 
 - CONN1 - 4UCon 19646 или аналогичный ([pdf](http://www.4uconnector.com/online/object/4udrawing/19608.pdf), [Sparkfun](https://www.sparkfun.com/products/12769), [noname разъем на ebay](http://www.ebay.com/itm/5-Pcs-SD-Memory-Card-Sockets-Connectors-Replacements-29-x-28-5-x-2-5mm-/291005194440?pt=UK_BOI_Electrical_Components_Supplies_ET&hash=item43c142e0c8))
 
-- CONN2 - угловой 2x13-контактный IDC-разъем (шаг 2.54мм)
+- CONN2 - 2x13-контактный IDC-разъем (шаг 2.54мм). Может быть как "мамой" так и "папой" в зависимости от вашего разъёма на Радио-86РК. Так же может быть вертикальным или угловым.
 
 - CONN3 - вертикальный 2x5-контактный pin header (шаг 2.54мм)
 
