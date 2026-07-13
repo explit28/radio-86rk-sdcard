@@ -139,11 +139,7 @@ If you want to use the original shell, rename:
 shell.old -> shell.rk
 ```
 
-## Useful links
-
-- Discussion of the original project on zx-pk.ru: <http://zx-pk.ru/showthread.php?t=24092>
-- Marketplace topic on zx-pk.ru: <http://zx-pk.ru/market/viewtopic.php?f=7&t=2567&p=24381>
-
+<a href="https://www.pcbway.com/project/shareproject/radio_86rk_sdcard_9226c23e.html"><img src="https://www.pcbway.com/project/img/images/frompcbway-1220.png" alt="PCB from PCBWay" /></a>
 
 ---
 
@@ -286,3 +282,5 @@ shell.old -> shell.rk
 
 - Обсуждение оригинального проекта на zx-pk.ru: <http://zx-pk.ru/showthread.php?t=24092>
 - Тема в барахолке на zx-pk.ru: <http://zx-pk.ru/market/viewtopic.php?f=7&t=2567&p=24381>
+
+<a href="https://www.pcbway.com/project/shareproject/radio_86rk_sdcard_9226c23e.html"><img src="https://www.pcbway.com/project/img/images/frompcbway-1220.png" alt="PCB from PCBWay" /></a>
