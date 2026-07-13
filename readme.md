@@ -84,7 +84,7 @@ sudo avrdude -c usbasp -p m328p -B 100 \
 sudo avrdude -c usbasp -p m328p -B 100 -U flash:w:86rksd.hex:i
 ```
 
-Автор оригинальной разработки подготовил файлы boot.rk, sdbios.rk и shell.rk - они должны быть в каталоге BOOT в корне SD-карты
+Автор оригинальной разработки подготовил файлы **boot.rk**, **sdbios.rk** и **shell.rk** - они должны быть в каталоге BOOT в корне SD-карты
 
 # **shell.rk** 
 в комплекте прошивки есть 2 файла shell.rk
