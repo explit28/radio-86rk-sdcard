@@ -18,7 +18,7 @@ The adapter is intended for **Radio-86RK_SRAM** or the **Radio-86RK by Sergey Ki
 - Added a **10-pin AVR ISP programming connector**.
 - Replaced **ATmega8L** with **ATmega328P**.
 
-## Photos of the PCB
+## PCB
 ![SD-Card top](radio-86rk-SRAM-sdcard.png)
 ![SD-Card bottom](radio-86rk-SRAM-sdcard-b.png)
 <br>
@@ -161,7 +161,7 @@ shell.old -> shell.rk
 - Добавлен **10-контактный разъём AVR ISP** для программирования.
 - Вместо **ATmega8L** используется **ATmega328P**.
 
-## Фото платы
+## платы
 ![SD-Card top](radio-86rk-SRAM-sdcard.png)
 ![SD-Card bottom](radio-86rk-SRAM-sdcard-b.png)
 <br>
