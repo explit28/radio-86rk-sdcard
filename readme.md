@@ -60,8 +60,8 @@
 https://www.sciencetronics.com/greenphotons/?p=938
 
 Прошивка микроконтроллера Atmega328P:
-сначала мы смотрим какие Fuse bits уже прошиты в микросхеме:
-Правильные Fuse bits:
+сначала мы смотрим какие Fuse bits уже прошиты в микросхеме:<br>
+Правильные Fuse bits: (Internal 8 MHz RC, without bootloader reset)<br>
 
 lfuse = 0xE2<br>
 hfuse = 0xD9<br>
@@ -73,7 +73,7 @@ sudo avrdude -c usbasp -p m328p -B 100 \
   -U lfuse:r:-:h -U hfuse:r:-:h -U efuse:r:-:h
 ```
 
-# пишем Fuses (Internal 8 MHz RC, without bootloader reset)
+# пишем Fuses
 ```bash
 sudo avrdude -c usbasp -p m328p -B 100 \
   -U lfuse:w:0xE2:m -U hfuse:w:0xD9:m -U efuse:w:0xFF:m
