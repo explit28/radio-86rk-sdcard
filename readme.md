@@ -18,11 +18,13 @@ The adapter is intended for **Radio-86RK_SRAM** or the **Radio-86RK by Sergey Ki
 - Added a **10-pin AVR ISP programming connector**.
 - Replaced **ATmega8L** with **ATmega328P**.
 
-## Photos of the assembled device
-
+## Photos of the PCB
 ![SD-Card top](radio-86rk-SRAM-sdcard.png)
-
 ![SD-Card bottom](radio-86rk-SRAM-sdcard-b.png)
+
+## Photos of the assembled device
+<img width="456" height="585" alt="SD-Card_top" src="https://github.com/user-attachments/assets/3003e10d-6723-4107-9a1f-54e1fd001b37" />
+<img width="538" height="636" alt="SD-Card_bottom" src="https://github.com/user-attachments/assets/61983086-8f32-4944-9965-181d1e120ee5" />
 
 ## BOM list
 
@@ -118,7 +120,7 @@ Use a simple FAT-formatted SD card. FAT16 or FAT32 is recommended. Avoid exFAT.
 After inserting the SD card and connecting the adapter, start the loader from the Radio-86RK monitor:
 
 ```text
-R0,100
+R0,200
 G
 ```
 
@@ -142,7 +144,6 @@ shell.old -> shell.rk
 - Discussion of the original project on zx-pk.ru: <http://zx-pk.ru/showthread.php?t=24092>
 - Marketplace topic on zx-pk.ru: <http://zx-pk.ru/market/viewtopic.php?f=7&t=2567&p=24381>
 
-![PCB from PCBWay](radio-86rk-SRAM-sdcard-b.png)
 
 ---
 
@@ -160,11 +161,13 @@ shell.old -> shell.rk
 - Добавлен **10-контактный разъём AVR ISP** для программирования.
 - Вместо **ATmega8L** используется **ATmega328P**.
 
-## Фото готового устройства
-
+## Фото платы
 ![SD-Card top](radio-86rk-SRAM-sdcard.png)
-
 ![SD-Card bottom](radio-86rk-SRAM-sdcard-b.png)
+
+## Фото готового устройства
+<img width="456" height="585" alt="SD-Card_top" src="https://github.com/user-attachments/assets/3003e10d-6723-4107-9a1f-54e1fd001b37" />
+<img width="538" height="636" alt="SD-Card_bottom" src="https://github.com/user-attachments/assets/61983086-8f32-4944-9965-181d1e120ee5" />
 
 ## BOM-list
 
@@ -260,7 +263,7 @@ sudo avrdude -c usbasp -p m328p -B 100 -U flash:w:86rksd.hex:i
 После установки SD-карты и подключения адаптера загрузчик запускается из монитора Радио-86РК:
 
 ```text
-R0,100
+R0,200
 G
 ```
 
@@ -283,5 +286,3 @@ shell.old -> shell.rk
 
 - Обсуждение оригинального проекта на zx-pk.ru: <http://zx-pk.ru/showthread.php?t=24092>
 - Тема в барахолке на zx-pk.ru: <http://zx-pk.ru/market/viewtopic.php?f=7&t=2567&p=24381>
-
-![PCB from PCBWay](radio-86rk-SRAM-sdcard-b.png)
