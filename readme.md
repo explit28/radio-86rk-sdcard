@@ -79,12 +79,16 @@ hfuse = 0xD9
 efuse = 0xFF 
 
 
-# пишем Fuses (Internal 8 MHz RC, without bootloader reset)	
+# пишем Fuses (Internal 8 MHz RC, without bootloader reset)
+```bash
 sudo avrdude -c usbasp -p m328p -B 100 \
   -U lfuse:w:0xE2:m -U hfuse:w:0xD9:m -U efuse:w:0xFF:m
+```
 
 # шьём прошивку атмеги
+```bash
 sudo avrdude -c usbasp -p m328p -B 100 -U flash:w:86rksd.hex:i
+```
 
 Автор оригинальной разработки подготовил файлы boot.rk, sdbios.rk и shell.rk - они должны быть в каталоге BOOT в корне SD-карты
 
