@@ -159,14 +159,6 @@ shell.old -> shell.rk
 - Добавлен **10-контактный разъём AVR ISP** для программирования.
 - Вместо **ATmega8L** используется **ATmega328P**.
 
-## платы
-![SD-Card top](radio-86rk-SRAM-sdcard.png)
-![SD-Card bottom](radio-86rk-SRAM-sdcard-b.png)
-<br>
-## Фото готового устройства
-<img width="960" height="1280" alt="Radio-86RK_SD-Card_Adapter_Top" src="https://github.com/user-attachments/assets/9dd84975-a413-4cf2-a6da-686220c3d>
-<img width="960" height="1280" alt="Radio-86RK_SD-Card_Adapter_Bottom" src="https://github.com/user-attachments/assets/749f7dad-c299-4a94-8488-ad285a>
-<img width="960" height="1280" alt="Radio-86RK_SD-Card_Adapter_Connected" src="https://github.com/user-attachments/assets/770fe97a-7e0b-4800-a030-978>
 
 ## BOM-list
 
