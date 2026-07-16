@@ -59,9 +59,8 @@ The adapter is intended for **Radio-86RK_SRAM** or the **Radio-86RK by Sergey Ki
 
 Program the **ATmega328P** using an AVR ISP programmer.
 
-If you use a cheap Chinese USB AVR ISP programmer, it may first need to be reflashed so that it works correctly in **USBasp** mode. One possible reference is:
-
-<https://www.sciencetronics.com/greenphotons/?p=938>
+If you use a cheap Chinese USB AVR ISP programmer, it may be first needed to be reprogrammed, so it works correctly in **USBasp** mode. 
+One possible reference is: <https://www.sciencetronics.com/greenphotons/?p=938>
 
 ### Fuse bits
 
@@ -191,9 +190,8 @@ shell.old -> shell.rk
 
 Прошивать **ATmega328P** нужно через AVR ISP-программатор.
 
-Если используется дешёвый китайский USB AVR ISP-программатор, его может потребоваться сначала перепрошить, чтобы он работал в правильном режиме **USBasp**. Одна из инструкций:
-
-<https://www.sciencetronics.com/greenphotons/?p=938>
+Если используется дешёвый китайский USB AVR ISP-программатор, то возможно его сначала нужно будет перепрошить, чтобы он работал в правильном режиме **USBasp**. 
+Одна из инструкций: <https://www.sciencetronics.com/greenphotons/?p=938>
 
 ### Fuse bits
 
