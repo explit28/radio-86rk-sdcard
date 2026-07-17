@@ -129,15 +129,16 @@ The SD-card shell/menu should appear. From there you can start Radio-86RK progra
 
 ## shell.rk
 
-The firmware package contains two shell variants:
+The firmware package contains 3 shell variants:
 
-- **shell.old** — original `shell.rk`; navigation uses the keys `A`, `Q`, `P`, `O`.
-- **shell.rk** — patched version; navigation works with the cursor keys and also with the original `A`, `Q`, `P`, `O` keys.
+- **shell.1st** — original `shell.rk`from Vinxru; navigation with curser keys -> produces weird characters in the commandline
+- **shell.2nd** — patched `shell.rk` from andykarpov; navigation uses the keys `A`, `Q`, `P`, `O`.
+- **shell.rk** — patched `shell.rk` from explit; navigation works with the cursor keys and also with the original `A`, `Q`, `P`, `O` keys.
 
-If you want to use the original shell, rename:
+If you want to use the old shell.rk, rename:
 
 ```text
-shell.old -> shell.rk
+shell.1st -> shell.rk or shell.2nd -> shell.rk
 ```
 
 <a href="https://www.pcbway.com/project/shareproject/radio_86rk_sdcard_9226c23e.html"><img src="https://www.pcbway.com/project/img/images/frompcbway-1220.png" alt="PCB from PCBWay" /></a>
@@ -260,16 +261,15 @@ G
 
 ## shell.rk
 
-В комплекте прошивки есть два варианта shell:
+Пакет прошивки содержит 3 варианта оболочки:
 
-- **shell.old** — оригинальный `shell.rk`; управление буквами `A`, `Q`, `P`, `O`.
-- **shell.rk** — моя пропатченная версия; управление стрелками курсора плюс буквами `A`, `Q`, `P`, `O`.
+shell.1st — оригинальный файл shell.rk от Vinxru; навигация выполняется клавишами управления курсором, но при этом в командной строке появляются странные символы.
+shell.2nd — модифицированный файл shell.rk от andykarpov; для навигации используются клавиши A, Q, P, O.
+shell.rk — модифицированный файл shell.rk от explit; навигация работает как клавишами управления курсором, так и оригинальными клавишами A, Q, P, O.
 
-Если вы хотите использовать оригинальную `shell.rk`, переименуйте:
-
+Чтобы использовать старую версию shell.rk, переименуйте нужный файл:
 ```text
-shell.old -> shell.rk
-```
+shell.1st -> shell.rk или: shell.2nd -> shell.rk```
 
 ## Полезные ссылки
 
