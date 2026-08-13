@@ -23,10 +23,10 @@ The adapter is intended for **Radio-86RK_SRAM** or the **Radio-86RK by Sergey Ki
 ![SD-Card bottom](radio-86rk-SRAM-sdcard-b.png)
 <br>
 ## Photos of the assembled device
-<img width="960" height="1280" alt="Radio-86RK_SD-Card_Adapter_Top" src="https://github.com/user-attachments/assets/9dd84975-a413-4cf2-a6da-686220c3d3d4" />
-<img width="960" height="1280" alt="Radio-86RK_SD-Card_Adapter_Bottom" src="https://github.com/user-attachments/assets/749f7dad-c299-4a94-8488-ad285a299627" />
-<img width="960" height="1280" alt="Radio-86RK_SD-Card_Adapter_Connected" src="https://github.com/user-attachments/assets/770fe97a-7e0b-4800-a030-978ad6be3dd2" />
-
+<img width="680" height="519" alt="Radio-86RK_SD-Card_Adapter_Top" src="https://github.com/user-attachments/assets/3f33484c-d2ba-496c-b2a8-c2773611317e" />
+<img width="722" height="536" alt="Radio-86RK_SD-Card_Adapter_Bottom" src="https://github.com/user-attachments/assets/1a649476-1f0a-4d5f-8738-cec373c4b47a" />
+<img width="720" height="955" alt="Radio-86RK_SD-Card_Adapter_Connected" src="https://github.com/user-attachments/assets/2e015939-baf9-4095-b53a-4526e96e6d9b" />
+<img width="960" height="1178" alt="Radio-86RK_SD-Card_Adapter_Operating" src="https://github.com/user-attachments/assets/c4422994-93d6-4434-9d87-3162f1037265" />
 
 ## BOM list
 
