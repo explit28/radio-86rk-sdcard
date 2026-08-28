@@ -32,7 +32,7 @@ The adapter is intended for **Radio-86RK_SRAM** or the **Radio-86RK by Sergey Ki
 
 ### ICs
 
-- **U1** — ATmega328P, or compatible microcontroller. In this fork, **ATmega328P** is used.
+- **U1** — ATmega328P, or compatible microcontroller.
 - **U2** — HEF4050BT or compatible 4050 buffer in an SMD package.
 - **IC1** — LM1117-3.3V.
 
