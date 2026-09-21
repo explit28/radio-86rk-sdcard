@@ -26,7 +26,6 @@ The adapter is intended for **Radio-86RK_SRAM** or the **Radio-86RK by Sergey Ki
 <img width="680" height="519" alt="Radio-86RK_SD-Card_Adapter_Top" src="https://github.com/user-attachments/assets/60cbc91f-62ad-4a89-8d47-29950eedc21f" />
 <img width="722" height="536" alt="Radio-86RK_SD-Card_Adapter_Bottom" src="https://github.com/user-attachments/assets/a5167e95-ead1-434c-8f35-9571203f4ebe" />
 <img width="720" height="955" alt="Radio-86RK_SD-Card_Adapter_Connected" src="https://github.com/user-attachments/assets/f48b8c69-8aea-4d37-82fd-a09d63e521b9" />
-<img width="960" height="1178" alt="Radio-86RK_SD-Card_Adapter_Operating" src="https://github.com/user-attachments/assets/8b8db128-4dbf-4932-91da-4a8c8d82a41c" />
 
 ## BOM list
 
